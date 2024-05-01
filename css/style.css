@@ -720,6 +720,15 @@ form a
 
 @media screen and (max-width:767px) 
 {
+    body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #f9f6f6;
+}
+
     .contact
     {
         margin-left: 5%;
