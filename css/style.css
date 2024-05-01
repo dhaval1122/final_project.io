@@ -1,0 +1,1306 @@
+@import url('font-face.css');
+*
+{
+    font-family: LibreBaskerville-Regular;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #f9f6f6;
+}
+.contact
+{
+    margin-left: 10%;
+}
+.contact p
+{
+    font-size: 14px;
+    color: #444343;
+    display: inline-block;
+}
+.account li
+{
+    font-size: 14px;
+}
+.account a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: #444343;
+}
+.logo
+{
+    margin-left: 10%;
+}
+.logo a
+{
+    font-family: Inter-ExtraBold;
+    font-size: 28px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.logo span
+{
+    font-family: Inter-ExtraBold;
+    font-size: 28px;
+    color: #0075bf;
+}
+.dreamy-navbar
+{
+    margin-left: 18%;
+}
+.dreamy-navbar li
+{
+    font-size: 14px;
+    padding: 5px 25px;
+}
+.dreamy-navbar a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: #111111;
+}
+.dreamy-navbar span
+{
+    color: #0075bf;
+}
+.dreamy-banner
+{
+    width: 100%;
+    height: auto;
+    background: url('../images/slider.png') no-repeat;
+    background-size: cover;
+}
+.banner-text
+{
+    width: 40%;
+    height: auto;
+    padding-top: 14%;
+    padding-left: 17%;
+}
+.banner-text h1
+{
+    font-family: Inter-ExtraBold;
+    font-size: 44px;
+}
+.banner-text span
+{
+    font-family: Inter-ExtraBold;
+    font-size: 60px;
+}
+.dreamy-banner h4
+{
+    font-size: 28px;
+    padding-top: 3%;
+    padding-left: 17%;
+}
+.banner-info
+{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+.banner-info span
+{
+    background-color: black;
+}
+.banner-pricing
+{
+    width: 80%;
+    margin-left: 16%;
+    padding-bottom: 50px;
+}
+.banner-pricing span
+{
+    background-color: black;
+}
+.search-btn
+{
+    background-color: #0075bf;
+    color: white;
+    border-radius: 0;
+}
+#content-dream
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4%;
+}
+#content-dream h1
+{
+    font-family: Inter-Black;
+    font-size: 190px;
+    color: #d6dbe2;
+    position: absolute;
+    margin-top: 39%;
+    letter-spacing: -15px;
+}
+.dreamy-content
+{
+    margin-left: 6%;
+}
+.best-destination
+{
+    width: 30%;
+    background-color: white;
+}
+.destination-content h4
+{
+    font-family: Inter-Bold;
+    font-size: 15px;
+}
+.destination-content p
+{
+    font-size: 12px;
+    color: #636363;
+}
+.best-price
+{
+    width: 30%;
+    background-color: white;
+}
+.booking
+{
+    width: 30%;
+    background-color: white;
+}
+.top-destination h2
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.top-destination p
+{
+    font-size: 18px;
+    color: #636363;
+}
+.top-images
+{
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    position: relative;
+}
+.bhutan
+{
+    width: 22%;
+    height: 340px;
+    background: url('../images/bhutan.png') no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.bhutan h4
+{
+    font-family: Inter-Bold;
+    font-size: 26px;
+    margin-top: 50%;
+}
+.japan
+{
+    width: 22%;
+    height: 340px;
+    background: url('../images/japan.png') no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.japan h4
+{
+    font-family: Inter-Bold;
+    font-size: 26px;
+    margin-top: 50%;
+}
+.nepal
+{
+    width: 22%;
+    height: 340px;
+    background: url('../images/nepal.png') no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.nepal h4
+{
+    font-family: Inter-Bold;
+    font-size: 26px;
+    margin-top: 50%;
+}
+.discount
+{
+    width: 100%;
+    height: 440px;
+    background: url('../images/discount-bg.png') no-repeat;
+    background-size: 100% 440px;
+}
+.discount h3
+{
+    font-family: LibreBaskerville-Bold;
+    font-size: 38px;
+    padding-top: 2%;
+}
+.discount h5
+{
+    font-size: 27px;
+}
+.clock
+{
+    width: 45%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.clock p
+{
+    font-size: 16px;
+    margin-left: 20%;
+}
+.clock span
+{
+    font-size: 48px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 25px;
+}
+.clock h3
+{
+    color: #07a79c;
+}
+.days p
+{
+    margin-left: 24%;
+}
+.hours p
+{
+    margin-left: 20%;
+}
+.minute p
+{
+    margin-left: 14%;
+}
+.second p
+{
+    margin-left: 15%;
+}
+.join-us button
+{
+    margin-top: 6%;
+    background-color: #111111;
+    padding: 5px 35px;
+    border-radius: 0;
+}
+.packages
+{
+    width: 100%;
+    height: auto;
+}
+.packages h3
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.packages p
+{
+    color: #636363;
+    font-size: 18px;
+}
+.tour
+{
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+}
+.tour h5
+{
+    font-family: Inter-Bold;
+    font-size: 20px;
+}
+.tour p
+{
+    color: #636363;
+    font-size: 14px;
+}
+
+.guide
+{
+    width: 100%;
+    height: auto;
+}
+.guide h3
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.guide p
+{
+    color: #636363;
+    font-size: 18px;
+}
+.tour-guide
+{
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+}
+.tour-guide h5
+{
+    font-family: Inter-Bold;
+    font-size: 20px;
+}
+.tour-guide p
+{
+    color: #636363;
+    font-size: 14px;
+}
+.book-now button
+{
+    background-color: #0075bf;
+    padding: 8px 14px;
+    border-radius: 0;
+}
+.book-now h5
+{
+    font-family: LibreBaskerville-Bold;
+    font-size: 32px;
+    color: #0075bf;
+    padding-left: 25%;
+}
+.laos button
+{
+    background-color: #002e79;
+}
+.review
+{
+    width: 100%;
+    height: auto;
+}
+.review h3
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.review p
+{
+    color: #636363;
+    font-size: 18px;
+}
+.clients
+{
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+}
+.clients p
+{
+    font-size: 15px;
+}
+.clients h5
+{
+    font-family: Inter-Bold;
+    color: #636363;
+}
+.clients h6
+{
+    color: #909090;
+}
+.clients q
+{
+    text-align: center;
+    font-size: 68px;
+    color: #0075bf;
+    letter-spacing: 2px;
+}
+.review span
+{
+    font-size: 60px;
+    color: #0075bf;
+}
+.lifetime
+{
+    width: 40%;
+    height: 680px;
+    background-color: #0075bf;
+    position: absolute;
+    padding-top: 16%;
+    padding-left: 3%;
+}
+.lifetime h3
+{
+    font-family: Inter-Light;
+    font-size: 44px;
+}
+.lifetime h2
+{
+    font-family: Inter-Black;
+    font-size: 60px;
+}
+.rightsidebar
+{
+    width: 100%;
+    height: 680px;
+    background: url('../images/special-offers.png') no-repeat;
+    background-size: 100% 680px;   
+}
+.rightsidebar h5
+{
+    font-size: 24px;
+    margin-top: 5%;
+    margin-left: 50%;
+    position: absolute;
+}
+.rightsidebar span
+{
+    font-size: 44px;
+    margin-top: 8%;
+    margin-left: 50%;
+    position: absolute;
+}
+.rightsidebar .offer
+{
+    font-size: 26px;
+    margin-top: 9%;
+    margin-left: 58%;
+    background-color: #ce6e11;
+    padding: 0px 8px;
+}
+.rightsidebar h4
+{
+    font-family: Inter-Bold;
+    font-size: 28px;
+    margin-left: 9%;
+    padding-top: 17%;
+}
+.rightsidebar h6
+{
+    font-size: 15px;
+    margin-left: 49%;
+}
+.rightsidebar p
+{
+    font-size: 14px;
+    margin-left: 49%;
+}
+.old-price span
+{
+    margin-top: 2%;
+    margin-left: 58%;
+    text-decoration: line-through;
+}
+.rating span
+{
+    font-size: 20px;
+    margin-left: 64%;
+}
+.reviews p
+{
+    margin-left: 74%;
+}
+.rightsidebar button
+{
+    background-color: #0075bf;
+    padding: 6px 18px;
+    border-radius: 0;
+    margin-left: 50%;
+}
+.offers-btn .read-more
+{
+    margin-left: 2%;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.blogs
+{
+    width: 100%;
+    height: auto;
+}
+.blogs h3
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.blogs p
+{
+    color: #636363;
+    font-size: 18px;
+}
+.blog
+{
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+}
+.blog h5
+{
+    font-family: Inter-Bold;
+    font-size: 20px;
+}
+.blog p
+{
+    color: #636363;
+    font-size: 14px;
+}
+.read button
+{
+    font-family: Inter-Bold;
+    color: #0075bf;
+    border-radius: 0;
+}
+.blogs span
+{
+    font-size: 60px;
+    color: #0075bf;
+}
+#subscribe
+{
+    width: 100%;
+    height: auto;
+    background-color: #002855;
+    margin-top: 4%;
+}
+.subscribe-us h3
+{
+    color: #f5f5ef;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 12%;
+    margin-left: 25%;
+}
+.subscribe-2 p
+{
+    color: #f5f5ef;
+    padding-top: 10%;
+}
+.subscribe-mail
+{
+    padding-bottom: 15%;
+    border-radius: 0;
+}
+.subscribe-mail button
+{
+    border-radius: 0;
+    background-color: black;
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.account-left
+{
+    background-color: #0075bf;
+}
+.footer-links li
+{
+    display: block;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.footer-links a 
+{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+.dreamy-footer li
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.dreamy-footer h5
+{
+    font-family: Inter-Black;
+}
+.dreamy-footer p
+{
+    font-size: 13px;
+    color: #636363;
+}
+.dreamy-footer h6
+{
+    font-family: Inter-Bold;
+    color: #2f2f2f;
+}
+.dreamy-connect a
+{
+    color: #636363;
+}
+.dreamy-links h4
+{
+    font-family: Inter-Bold;
+}
+.dreamy-links h6
+{
+    font-size: 15px;
+    color: #636363;
+}
+.dreamy-links a
+{
+    text-decoration: none;
+    color: #636363;
+}
+.footer-2
+{
+    background-color: #e6e9f0;
+}
+.footer-2 p
+{
+    color: #7e7d7d;
+    font-size: 14px;
+}
+.footer-img
+{
+    margin-left: 32%;
+}
+.dreamy-login
+{
+    background-color: #d6dbe2;
+}
+.login-input input
+{
+    background-color: #0075bf;
+}
+form a
+{
+    text-decoration: none;
+}
+.login-head
+{
+    font-family: Inter-Bold;
+    color: #0075bf;
+    font-size: 40px;
+}
+.mange-profile h2
+{
+    font-family: Inter-Bold;
+    color: #0075bf;
+    font-size: 36px;
+}
+#about
+{
+    background-color: #d6dbe2;
+}
+.about-text h4, h2
+{
+    font-family: Inter-Bold;
+}
+#contact
+{
+    background-color: #d6dbe2;
+}
+#contact label
+{
+    font-family: Inter-Bold;
+}
+#blog
+{
+    background-color: #d6dbe2;
+}
+#blog h5
+{
+    font-family: Inter-Bold;
+}
+#tour-pack
+{
+    background-color: #d6dbe2;
+}
+#tour-pack h3
+{
+    font-family: Inter-Bold;
+}
+#tour-pack p
+{
+    color: #636363;
+}
+#tours
+{
+    background-color: #d6dbe2;
+}
+
+@media screen and (max-width:767px) 
+{
+    .contact
+    {
+        margin-left: 5%;
+    }
+    .logo
+    {
+        margin-left: 5%;
+    }
+    .dreamy-navbar
+    {
+        margin-left: 2%;
+        display: block;
+    }
+    .dreamy-navbar li
+    {
+        font-size: 16px;
+    }
+    .account
+    {
+        width: 60%;
+        margin-left: 5%;
+    }
+    .dreamy-banner
+    {
+    width: 100%;
+    height: 460px;
+    background: url('../images/slider.png') no-repeat;
+    background-size: 100% 460px;
+    }
+    .banner-text
+    {
+    width: 50%;
+    padding: 0px !important;
+    padding-left: 15% !important;
+    padding-top: 5% !important;
+    }
+    .banner-text h1
+    {
+    font-family: Inter-ExtraBold;
+    font-size: 32px;
+    }
+    .banner-text span
+    {
+    font-family: Inter-ExtraBold;
+    font-size: 38px;
+    }
+    .dreamy-banner h4
+    {
+        font-size: 18px;
+        padding: 0 !important;
+        padding-top: 2% !important;
+        padding-left: 15% !important;
+    }
+    .banner-info
+    {
+        width: 65%;
+        height: auto;
+        padding: 0 !important;
+        padding-left: 13% !important;
+        margin: 0 !important;
+    }
+    .banner-pricing
+    {
+        width: 52%;
+        height: auto;
+        padding: 0 !important;
+        margin-left: 13% !important;
+        margin-top: 2%;
+    }
+#content-dream
+{
+    width: 90%;
+    height: auto;
+    display: block;
+}
+#content-dream h1
+{
+    display: none;
+}
+.best-destination
+{
+    width: 100%;
+    background-color: white;
+}
+.best-price
+{
+    width: 100%;
+    background-color: white;
+    margin: 0 !important;
+    margin-top: 2% !important;
+}
+.booking
+{
+    width: 100%;
+    background-color: white;
+    margin: 0 !important;
+    margin-top: 2% !important;
+}
+.top-images
+{
+    width: 100%;
+    height: auto;
+    margin-left: 15%;
+    position: relative;
+}
+.top-destination
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.bhutan
+{
+    width: 75%;
+    height: 280px;
+    background: url('../images/bhutan.png') no-repeat;
+    background-size: 75% 280px;
+    margin-left: 8% !important;
+}
+.bhutan h4
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    padding-left: 26% !important;
+    padding-top: 25% !important;
+}
+.japan
+{
+    width: 75%;
+    height: 280px;
+    background: url('../images/japan.png') no-repeat;
+    background-size: 75% 280px;
+    margin-top: 2% !important;
+}
+.japan h4
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    padding-left: 26% !important;
+    padding-top: 25% !important;
+}
+.nepal
+{
+    width: 75%;
+    height: 280px;
+    background: url('../images/nepal.png') no-repeat;
+    background-size: 75% 280px;
+    margin-top: 2% !important;
+}
+.nepal h4
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    padding-left: 26% !important;
+    padding-top: 25% !important;
+}
+.discount
+{
+    width: 100%;
+    height: 440px;
+    background: url('../images/discount-bg.png') no-repeat;
+    background-size: 100% 440px;
+}
+.discount h3
+{
+    font-family: LibreBaskerville-Bold;
+    font-size: 30px;
+    padding-top: 2%;
+}
+.discount h5
+{
+    font-size: 20px;
+}
+.clock
+{
+    width: 45%;
+    height: auto;
+    margin: 0 !important;
+    margin-top: 2% !important;
+    margin-left: 20% !important;
+}
+.clock p
+{
+    font-size: 16px;
+    margin-left: 20% !important;
+}
+.clock span
+{
+    font-size: 26px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px !important;
+}
+.clock h3
+{
+    margin-left: 5% !important;
+    color: #07a79c;
+}
+.days p
+{
+    margin-left: 20% !important;
+}
+.hours p
+{
+    margin-left: 12% !important;
+}
+.minute p
+{
+    margin-left: 5% !important;
+}
+.second p
+{
+    margin-left: 5% !important;
+}
+.join-us button
+{
+    margin-top: 10% !important;
+    padding: 5px 35px;
+    border-radius: 0;
+}
+.packages
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.tour
+{
+    width: 50%;
+    height: auto;
+    margin: auto !important;
+}
+.laos
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.singapore
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.tour h5
+{
+    font-family: Inter-Bold;
+    font-size: 16px;
+}
+.tour p
+{
+    color: #636363;
+    font-size: 12px;
+}
+.book-now h5
+{
+    font-family: LibreBaskerville-Bold;
+    font-size: 24px;
+    color: #0075bf;
+    padding-left: 25%;
+}
+.review
+{
+    width: 100%;
+    height: auto;
+    margin-top: 15% !important;
+}
+.review h3
+{
+    font-family: Inter-Bold;
+    font-size: 30px;
+}
+.review p
+{
+    color: #636363;
+    font-size: 14px;
+}
+.clients
+{
+    width: 50%;
+    height: auto;
+    margin: auto !important;
+}
+.client-2
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.client-3
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.clients p
+{
+    font-size: 15px;
+}
+.clients q
+{
+    text-align: center;
+    font-size: 68px;
+    color: #0075bf;
+    letter-spacing: 2px;
+}
+.review span
+{
+    font-size: 60px;
+    color: #0075bf;
+}
+.lifetime
+{
+    width: 40%;
+    height: 680px;
+    background-color: #0075bf;
+    position: absolute;
+    padding: 0% !important;
+    padding-top: 25% !important;
+}
+.lifetime h3
+{
+    font-family: Inter-Light;
+    font-size: 32px;
+}
+.lifetime h2
+{
+    font-family: Inter-Black;
+    font-size: 38px;
+}
+.rightsidebar
+{
+    width: 100%;
+    height: 680px;
+    background: url('../images/special-offers.png') no-repeat;
+    background-size: 100% 680px; 
+}
+.rightsidebar h5
+{
+    font-size: 20px;
+    margin-top: 5% !important;
+    margin-left: 50% !important;
+    position: absolute;
+}
+.rightsidebar span
+{
+    font-size: 34px;
+    margin-top: 8% !important;
+    margin-left: 50% !important;
+    position: absolute;
+}
+.rightsidebar .offer
+{
+    font-size: 20px;
+    margin-top: 9% !important;
+    margin-left: 61% !important;
+    background-color: #ce6e11;
+    padding: 0px 8px !important;
+}
+.rightsidebar h4
+{
+    font-family: Inter-Bold;
+    font-size: 24px;
+    margin-left: 14% !important;
+    padding-top: 17% !important;
+}
+.rightsidebar h6
+{
+    font-size: 15px;
+    margin-left: 49% !important;
+}
+.rightsidebar p
+{
+    font-size: 14px;
+    margin-left: 49% !important;
+}
+.new-price span
+{
+    margin-top: 2% !important;
+
+}
+.old-price span
+{
+    margin-top: 2% !important;
+    margin-left: 61% !important;
+    text-decoration: line-through;
+}
+.rating span
+{
+    font-size: 20px;
+    margin-left: 71% !important;
+}
+.reviews p
+{
+    font-size: 12px;
+    margin-top: 0 !important;
+    margin-left: 87% !important;
+}
+.rightsidebar button
+{
+    background-color: #0075bf;
+    padding: 6px 18px;
+    border-radius: 0;
+}
+.offers-btn .read-more
+{
+    margin-left: 2%;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.blogs
+{
+    width: 100%;
+    height: auto;
+}
+.blogs h3
+{
+    font-family: Inter-Bold;
+    font-size: 30px;
+}
+.blogs p
+{
+    color: #636363;
+    font-size: 16px;
+}
+.blog
+{
+    width: 50%;
+    height: auto;
+    margin: auto !important;
+}
+.blog-2
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.blog-3
+{
+    margin: 0 !important;
+    margin-top: 3% !important;
+}
+.blog h5
+{
+    font-family: Inter-Bold;
+    font-size: 20px;
+}
+.blog p
+{
+    color: #636363;
+    font-size: 14px;
+}
+.read button
+{
+    font-family: Inter-Bold;
+    color: #0075bf;
+    border-radius: 0;
+}
+#subscribe
+{
+    width: 100%;
+    height: auto;
+    background-color: #002855;
+}
+.subscribe-us
+{
+    width: 34%;
+}
+.subscribe-2
+{
+    width: 65%;
+    margin-left: 1% !important;
+}
+.subscribe-us h3
+{
+    color: #f5f5ef;
+    font-size: 15px;
+    margin-top: 25% !important;
+    margin-left: 8% !important;
+}
+.subscribe-2 p
+{
+    font-size: 14px;
+    color: #f5f5ef;
+    padding-top: 8% !important;
+}
+.dreamy-footer
+{
+    width: 50%;
+}
+.dreamy-links
+{
+    width: 45%;
+}
+.dreamy-connect a
+{
+    color: #636363;
+}
+.dreamy-links h6
+{
+    font-size: 13px;
+    color: #636363;
+}
+.dreamy-links a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: #636363;
+}
+.footer-2
+{
+    background-color: #e6e9f0;
+}
+.footer-2 p
+{
+    width: 65%;
+    color: #7e7d7d;
+    font-size: 12px;
+}
+.footer-img
+{
+    margin-left: 32% !important;
+}
+.about-text
+{
+    margin: auto !important;
+    margin-top: 5% !important;
+}
+.about-img
+{
+    margin: auto !important;
+}
+.about-content
+{
+    margin: auto !important;
+}
+.guide
+{
+    width: 100%;
+    height: auto;
+}
+.guide h3
+{
+    font-family: Inter-Bold;
+    font-size: 34px;
+}
+.guide p
+{
+    color: #636363;
+    font-size: 18px;
+}
+.tour-guide
+{
+    width: 50%;
+    height: auto;
+    margin:auto !important;
+}
+.tour-guide-2
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.tour-guide-3
+{
+    margin: 0% !important;
+    margin-top: 3% !important;
+}
+.tour-guide h5
+{
+    font-family: Inter-Bold;
+    font-size: 18px;
+}
+.tour-guide p
+{
+    color: #636363;
+    font-size: 12px;
+}
+.our-location
+{
+    margin: auto !important;
+    margin-left: 2% !important;
+    margin-top: 3% !important;
+}
+}
