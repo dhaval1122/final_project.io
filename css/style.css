@@ -485,8 +485,13 @@ body
     font-size: 14px;
     margin-left: 49%;
 }
+.new-price span
+{
+    font-size: 34px;
+}
 .old-price span
 {
+    font-size: 26px;
     margin-top: 2%;
     margin-left: 58%;
     text-decoration: line-through;
@@ -494,7 +499,7 @@ body
 .rating span
 {
     font-size: 20px;
-    margin-left: 64%;
+    margin-left: 65%;
 }
 .reviews p
 {
@@ -577,6 +582,7 @@ body
 }
 .subscribe-mail
 {
+    width: 80%;
     padding-bottom: 15%;
     border-radius: 0;
 }
@@ -718,38 +724,45 @@ form a
     background-color: #d6dbe2;
 }
 
-@media screen and (max-width:767px) 
+@media only screen and (min-width:320px) and (max-width:480px)
 {
-    body
-{
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    background-color: #f9f6f6;
-}
-
-    .contact
-    {
-        margin-left: 5%;
-    }
-    .logo
-    {
-        margin-left: 5%;
-    }
     .dreamy-navbar
     {
-        margin-left: 2%;
+        margin: 0% !important;
+        
         display: block;
     }
     .dreamy-navbar li
     {
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .contact
+    {
+        margin: 0 !important;
+        margin-left: 2% !important;
+    }
+    .contact p 
+    {
+        padding: 0 !important;
+        margin: 0 !important;
     }
     .account
     {
-        width: 60%;
-        margin-left: 5%;
+        width: 90%;
+        margin-left: 2% !important;
+    }
+    .logo
+    {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .logo span
+    {
+        font-size: 18px;
+    }
+    .logo a
+    {
+        font-size: 18px;
     }
     .dreamy-banner
     {
@@ -760,58 +773,71 @@ form a
     }
     .banner-text
     {
-    width: 50%;
-    padding: 0px !important;
+    width: 85%;
     padding-left: 15% !important;
-    padding-top: 5% !important;
+    padding-top: 6% !important;
     }
     .banner-text h1
     {
     font-family: Inter-ExtraBold;
-    font-size: 32px;
+    font-size: 26px;
     }
     .banner-text span
     {
     font-family: Inter-ExtraBold;
-    font-size: 38px;
+    font-size: 26px;
     }
     .dreamy-banner h4
     {
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 !important;
         padding-top: 2% !important;
         padding-left: 15% !important;
     }
     .banner-info
     {
-        width: 65%;
+        width: 75%;
         height: auto;
         padding: 0 !important;
-        padding-left: 13% !important;
-        margin: 0 !important;
+        margin-left: 13% !important;
+    }
+    .banner-info input
+    {
+        font-size: 12px;
     }
     .banner-pricing
     {
-        width: 52%;
+        width: 75%;
         height: auto;
         padding: 0 !important;
         margin-left: 13% !important;
         margin-top: 2%;
     }
-#content-dream
-{
-    width: 90%;
-    height: auto;
-    display: block;
-}
+    .banner-pricing input
+    {
+        font-size: 12px;
+    }
+    .banner-pricing button
+    {
+        font-size: 12px;
+    }
 #content-dream h1
 {
     display: none;
+}
+.dreamy-content
+{
+    width: 95%;
+    padding: 0% !important;
+    margin-left: 2% !important;
+    margin-top: 4% !important;
 }
 .best-destination
 {
     width: 100%;
     background-color: white;
+    margin: 0 !important;
+    padding: 0% !important;
 }
 .best-price
 {
@@ -829,149 +855,152 @@ form a
 }
 .top-images
 {
-    width: 100%;
-    height: auto;
-    margin-left: 15%;
-    position: relative;
+    margin-left: 5% !important;
 }
 .top-destination
 {
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 !important;
+    margin-top: 5% !important;
     padding: 0 !important;
+}
+.top-destination h2
+{
+    font-size: 20px;
+}
+.top-destination p
+{
+    margin-left: 0% !important;
+    font-size: 12px;
 }
 .bhutan
 {
-    width: 75%;
+    width: 95%;
     height: 280px;
     background: url('../images/bhutan.png') no-repeat;
-    background-size: 75% 280px;
-    margin-left: 8% !important;
+    background-size: 95% 280px;
 }
 .bhutan h4
 {
     margin: 0 !important;
     padding: 0 !important;
-    text-align: left;
-    padding-left: 26% !important;
-    padding-top: 25% !important;
+    padding-top: 33% !important;
 }
 .japan
 {
-    width: 75%;
+    width: 95%;
     height: 280px;
     background: url('../images/japan.png') no-repeat;
-    background-size: 75% 280px;
+    background-size: 95% 280px;
+    margin: 0% !important;
     margin-top: 2% !important;
 }
 .japan h4
 {
     margin: 0 !important;
     padding: 0 !important;
-    text-align: left;
-    padding-left: 26% !important;
-    padding-top: 25% !important;
+    padding-top: 33% !important;
 }
 .nepal
 {
-    width: 75%;
+    width: 95%;
     height: 280px;
     background: url('../images/nepal.png') no-repeat;
-    background-size: 75% 280px;
+    background-size: 95% 280px;
+    margin: 0% !important;
     margin-top: 2% !important;
 }
 .nepal h4
 {
     margin: 0 !important;
     padding: 0 !important;
-    text-align: left;
-    padding-left: 26% !important;
-    padding-top: 25% !important;
+    padding-top: 33% !important;
 }
 .discount
 {
     width: 100%;
-    height: 440px;
+    height: 300px;
     background: url('../images/discount-bg.png') no-repeat;
-    background-size: 100% 440px;
+    background-size: 100% 300px;
 }
 .discount h3
 {
     font-family: LibreBaskerville-Bold;
-    font-size: 30px;
-    padding-top: 2%;
+    font-size: 18px;
+    padding-top: 5%;
 }
 .discount h5
 {
-    font-size: 20px;
+    font-size: 14px;
 }
 .clock
 {
-    width: 45%;
+    width: 35%;
     height: auto;
-    margin: 0 !important;
-    margin-top: 2% !important;
-    margin-left: 20% !important;
+    margin-top: 4% !important;
+    margin-left: 8% !important;
 }
 .clock p
 {
-    font-size: 16px;
-    margin-left: 20% !important;
+    font-size: 12px;
 }
 .clock span
 {
-    font-size: 26px;
+    font-size: 16px;
     border: 4px solid white;
     border-radius: 50%;
-    padding: 20px !important;
+    padding: 10px !important;
 }
 .clock h3
 {
-    margin-left: 5% !important;
+    font-size: 30px;
+    margin-top: 40% !important;
+    margin-left: 8% !important;
     color: #07a79c;
 }
-.days p
+.minute, .hours, .second
 {
-    margin-left: 20% !important;
-}
-.hours p
-{
-    margin-left: 12% !important;
+    margin-left: 8% !important;
 }
 .minute p
 {
-    margin-left: 5% !important;
+    margin-left: 2% !important;
+}
+.days p
+{
+    margin-left: 8% !important;
+}
+.hours p
+{
+    margin-left: 7% !important;
 }
 .second p
 {
-    margin-left: 5% !important;
+    margin-left: 2% !important;
 }
 .join-us button
 {
-    margin-top: 10% !important;
-    padding: 5px 35px;
+    font-size: 13px;
+    margin-top: 12% !important;
+    padding: 4px 20px;
     border-radius: 0;
 }
-.packages
+.packages h3
 {
-    width: 100%;
-    height: auto;
-    display: block;
+    font-size: 20px;
+}
+.packages p
+{
+    font-size: 13px;
 }
 .tour
 {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin: auto !important;
 }
-.laos
-{
-    margin: 0% !important;
-    margin-top: 3% !important;
-}
-.singapore
+.laos, .singapore
 {
     margin: 0% !important;
     margin-top: 3% !important;
@@ -980,16 +1009,21 @@ form a
 {
     font-family: Inter-Bold;
     font-size: 16px;
+    margin-left: 2% !important;
 }
 .tour p
 {
     color: #636363;
     font-size: 12px;
 }
+.book-now button
+{
+    font-size: 12px;
+}
 .book-now h5
 {
     font-family: LibreBaskerville-Bold;
-    font-size: 24px;
+    font-size: 20px;
     color: #0075bf;
     padding-left: 25%;
 }
@@ -1002,16 +1036,16 @@ form a
 .review h3
 {
     font-family: Inter-Bold;
-    font-size: 30px;
+    font-size: 20px;
 }
 .review p
 {
     color: #636363;
-    font-size: 14px;
+    font-size: 12px;
 }
 .clients
 {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin: auto !important;
 }
@@ -1027,14 +1061,22 @@ form a
 }
 .clients p
 {
-    font-size: 15px;
+    font-size: 12px;
 }
 .clients q
 {
     text-align: center;
-    font-size: 68px;
+    font-size: 54px;
     color: #0075bf;
     letter-spacing: 2px;
+}
+.review h5
+{
+    font-size: 16px;
+}
+.review h6
+{
+    font-size: 14px;
 }
 .review span
 {
@@ -1043,121 +1085,128 @@ form a
 }
 .lifetime
 {
-    width: 40%;
-    height: 680px;
+    width: 45%;
+    height: 320px;
     background-color: #0075bf;
     position: absolute;
-    padding: 0% !important;
-    padding-top: 25% !important;
+    padding-top: 35% !important;
+    padding-left: 5% !important;
+}
+.lifetime h4
+{
+    font-size: 16px;
+    margin: 0 !important;
 }
 .lifetime h3
 {
     font-family: Inter-Light;
-    font-size: 32px;
+    font-size: 20px;
+    margin: 0 !important;
 }
 .lifetime h2
 {
     font-family: Inter-Black;
-    font-size: 38px;
+    font-size: 22px;
+    margin: 0 !important;
 }
 .rightsidebar
 {
     width: 100%;
-    height: 680px;
+    height: 320px;
     background: url('../images/special-offers.png') no-repeat;
-    background-size: 100% 680px; 
+    background-size: 100% 320px; 
 }
 .rightsidebar h5
 {
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 5% !important;
     margin-left: 50% !important;
     position: absolute;
 }
 .rightsidebar span
 {
-    font-size: 34px;
-    margin-top: 8% !important;
+    font-size: 18px;
+    margin-top: 10% !important;
     margin-left: 50% !important;
     position: absolute;
 }
 .rightsidebar .offer
 {
-    font-size: 20px;
-    margin-top: 9% !important;
-    margin-left: 61% !important;
+    font-size: 13px;
+    margin-top: 11% !important;
+    margin-left: 63% !important;
     background-color: #ce6e11;
-    padding: 0px 8px !important;
+    padding: 0px 6px !important;
 }
 .rightsidebar h4
 {
     font-family: Inter-Bold;
-    font-size: 24px;
-    margin-left: 14% !important;
-    padding-top: 17% !important;
+    font-size: 16px;
+    margin-left: 21% !important;
+    padding-top: 19% !important;
 }
 .rightsidebar h6
 {
-    font-size: 15px;
+    font-size: 11px;
     margin-left: 49% !important;
+    margin-top: 0% !important;
 }
 .rightsidebar p
 {
-    font-size: 14px;
+    font-size: 10px;
+    margin-top: 0% !important;
     margin-left: 49% !important;
 }
 .new-price span
 {
-    margin-top: 2% !important;
-
+    margin-top: 0% !important;
+    font-size: 13px;
 }
 .old-price span
 {
-    margin-top: 2% !important;
-    margin-left: 61% !important;
+    font-size: 11px;
+    margin-top: 1% !important;
+    margin-left: 62% !important;
     text-decoration: line-through;
 }
-.rating span
+.rating span 
 {
-    font-size: 20px;
-    margin-left: 71% !important;
+    display: none;
 }
 .reviews p
 {
-    font-size: 12px;
-    margin-top: 0 !important;
-    margin-left: 87% !important;
+    font-size: 11px;
+    margin-top: -6% !important;
+    margin-left: 74% !important;
 }
 .rightsidebar button
 {
+    font-size: 10px;
     background-color: #0075bf;
-    padding: 6px 18px;
+    padding: 3px 6px;
     border-radius: 0;
+    margin-top: 0% !important;
 }
 .offers-btn .read-more
 {
-    margin-left: 2%;
+    margin-top: 0% !important;
+    margin-left: 0% !important;
     border: 2px solid white;
     background-color: transparent;
-}
-.blogs
-{
-    width: 100%;
-    height: auto;
 }
 .blogs h3
 {
     font-family: Inter-Bold;
-    font-size: 30px;
+    font-size: 20px;
 }
 .blogs p
 {
     color: #636363;
-    font-size: 16px;
+    font-size: 12px;
 }
 .blog
 {
-    width: 50%;
+    width: 90%;
     height: auto;
     margin: auto !important;
 }
@@ -1174,12 +1223,12 @@ form a
 .blog h5
 {
     font-family: Inter-Bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 .blog p
 {
     color: #636363;
-    font-size: 14px;
+    font-size: 12px;
 }
 .read button
 {
@@ -1187,26 +1236,20 @@ form a
     color: #0075bf;
     border-radius: 0;
 }
-#subscribe
-{
-    width: 100%;
-    height: auto;
-    background-color: #002855;
-}
 .subscribe-us
 {
-    width: 34%;
+    width: 100%;
 }
 .subscribe-2
 {
-    width: 65%;
-    margin-left: 1% !important;
+    width: 97%;
+    margin-left: 5% !important;
 }
 .subscribe-us h3
 {
     color: #f5f5ef;
-    font-size: 15px;
-    margin-top: 25% !important;
+    font-size: 18px;
+    margin-top: 10% !important;
     margin-left: 8% !important;
 }
 .subscribe-2 p
@@ -1215,13 +1258,34 @@ form a
     color: #f5f5ef;
     padding-top: 8% !important;
 }
+.subscribe-mail
+{
+    width: 90%;
+}
+.subscribe-mail input 
+{
+    font-size: 12px;
+}
+.subscribe-mail button
+{
+    font-size: 10px;
+}
+#footer
+{
+    display: block;
+}
 .dreamy-footer
 {
-    width: 50%;
+    width: 80%;
+    padding: 0% !important;
+    margin: auto !important;
+    margin-top: 8% !important;
 }
 .dreamy-links
 {
-    width: 45%;
+    width: 65%;
+    padding: 0% !important;
+    margin-left: 10% !important;
 }
 .dreamy-connect a
 {
@@ -1246,24 +1310,35 @@ form a
 {
     width: 65%;
     color: #7e7d7d;
-    font-size: 12px;
+    font-size: 10px;
+    margin: 0 !important;
+    padding-top: 5% !important;
+    margin-left: 2% !important;
 }
 .footer-img
 {
-    margin-left: 32% !important;
+    margin-left: 9% !important;
 }
-.about-text
+.about-text h2
 {
-    margin: auto !important;
-    margin-top: 5% !important;
+    font-size: 22px;
+}
+.about-text h4
+{
+    font-size: 16px;
+}
+.about-text p
+{
+    width: 95%;
+    font-size: 12px;
 }
 .about-img
 {
-    margin: auto !important;
-}
-.about-content
-{
-    margin: auto !important;
+    width: 90%;
+    height: auto;
+    margin: 0 !important;
+    margin-top: 3% !important;
+    margin-left: 5% !important;
 }
 .guide
 {
@@ -1273,16 +1348,16 @@ form a
 .guide h3
 {
     font-family: Inter-Bold;
-    font-size: 34px;
+    font-size: 30px;
 }
 .guide p
 {
     color: #636363;
-    font-size: 18px;
+    font-size: 15px;
 }
 .tour-guide
 {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin:auto !important;
 }
@@ -1299,17 +1374,57 @@ form a
 .tour-guide h5
 {
     font-family: Inter-Bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 .tour-guide p
 {
     color: #636363;
+    font-size: 10px;
+}
+.dreamy-tour
+{
+    width: 70%;
+    margin: auto !important;
+}
+.dreamy-tour h5
+{
+    font-size: 16px;
+}
+.dreamy-tour p
+{
     font-size: 12px;
+}
+.dreamy-tour a, span
+{
+    font-size: 14px;
+}
+.dreamy-blog
+{
+    width: 70%;
+    margin: auto !important;
+}
+.dreamy-blog h5
+{
+    font-size: 16px;
+}
+.dreamy-blog p
+{
+    font-size: 12px;
+}
+.dreamy-blog a
+{
+    font-size: 14px;
+}
+.dreamy-contact form
+{
+    width: 80%;
 }
 .our-location
 {
-    margin: auto !important;
-    margin-left: 2% !important;
-    margin-top: 3% !important;
+    width: 75%;
+}
+.login-head
+{
+    font-size: 30px;
 }
 }
