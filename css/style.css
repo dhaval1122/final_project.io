@@ -325,7 +325,22 @@ body
     color: #636363;
     font-size: 14px;
 }
-
+.tour-2
+{
+    width: 100%;
+    height: auto;
+    margin-left: 11%;
+}
+.tour-2 h5
+{
+    font-family: Inter-Bold;
+    font-size: 20px;
+}
+.tour-2 p
+{
+    color: #636363;
+    font-size: 14px;
+}
 .guide
 {
     width: 100%;
@@ -1319,13 +1334,19 @@ form a
 {
     margin-left: 9% !important;
 }
+.about-text
+{
+    margin: 0% !important;
+    margin-top: 5% !important;
+    margin-left: 2% !important;
+}
 .about-text h2
 {
     font-size: 22px;
 }
 .about-text h4
 {
-    font-size: 16px;
+    font-size: 15px;
 }
 .about-text p
 {
@@ -1334,16 +1355,11 @@ form a
 }
 .about-img
 {
-    width: 90%;
+    width: 95%;
     height: auto;
     margin: 0 !important;
     margin-top: 3% !important;
-    margin-left: 5% !important;
-}
-.guide
-{
-    width: 100%;
-    height: auto;
+    margin-left: 3% !important;
 }
 .guide h3
 {
@@ -1357,7 +1373,7 @@ form a
 }
 .tour-guide
 {
-    width: 60%;
+    width: 75%;
     height: auto;
     margin:auto !important;
 }
@@ -1374,16 +1390,16 @@ form a
 .tour-guide h5
 {
     font-family: Inter-Bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 .tour-guide p
 {
     color: #636363;
-    font-size: 10px;
+    font-size: 8px;
 }
 .dreamy-tour
 {
-    width: 70%;
+    width: 98%;
     margin: auto !important;
 }
 .dreamy-tour h5
@@ -1398,9 +1414,42 @@ form a
 {
     font-size: 14px;
 }
+.pack-head h3
+{
+    font-size: 20px;
+}
+.pack-head p 
+{
+    font-size: 13px;
+}
+.tour-2
+{
+    width: 90%;
+    height: auto;
+    margin: auto !important;
+    margin-top: 3% !important;
+}
+.tour-2 h5
+{
+    font-family: Inter-Bold;
+    font-size: 16px;
+    margin-left: 2% !important;
+}
+.tour-2 p
+{
+    color: #636363;
+    font-size: 12px;
+}
+.book-now h5
+{
+    font-family: LibreBaskerville-Bold;
+    font-size: 20px;
+    color: #0075bf;
+    padding-left: 25%;
+}
 .dreamy-blog
 {
-    width: 70%;
+    width: 95%;
     margin: auto !important;
 }
 .dreamy-blog h5
@@ -1409,22 +1458,48 @@ form a
 }
 .dreamy-blog p
 {
-    font-size: 12px;
+    font-size: 13px;
 }
 .dreamy-blog a
 {
     font-size: 14px;
 }
+.contact-form
+{
+    padding: 0% !important;
+    margin-left: 2% !important;
+    margin-top: 5% !important;
+}
+.contact-form label
+{
+    font-size: 14px;
+}
 .dreamy-contact form
 {
-    width: 80%;
+    width: 95%;
 }
 .our-location
 {
-    width: 75%;
+    margin-left: 2% !important;
+    width: 95%;
+    margin-top: 5% !important;
 }
 .login-head
 {
+    padding-top: 5% !important;
     font-size: 30px;
+}
+.dreamy-login
+{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.dreamy-login img
+{
+    margin-left: 10% !important;
+}
+.account-left
+{
+    display: none;
 }
 }
